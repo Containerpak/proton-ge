@@ -1,2 +1,2 @@
 #!/bin/sh
-exec /usr/share/steam/compatibilitytools.d/GE-Proton11-5/proton "$@"
+exec "${CPAK_ROOTFS:-}/usr/share/steam/compatibilitytools.d/GE-Proton11-5/proton" "$@"
