@@ -1,10 +1,10 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Containerpak/cpak/v2/schema/manifest-v2.json",
-  "manifest_version": "2.0",
+  "$schema": "https://raw.githubusercontent.com/Containerpak/cpak/v2/schema/manifest-v3.json",
+  "manifest_version": "3.0",
   "name": "GE-Proton",
   "description": "Use the community Proton build maintained by GloriousEggroll.",
   "version": "11-5",
-  "image": "ghcr.io/containerpak/proton-ge:main",
+  "image": "ghcr.io/containerpak/proton-ge@sha256:4f0d360ca3e47f38d35392b5347b62c7403ac1e51f1e0748bd42a054d0a52da5",
   "binaries": [
     "/usr/bin/proton-ge"
   ],
@@ -12,16 +12,11 @@
   "addons": [],
   "idle_time": 0,
   "override": {
-    "socketX11": false,
     "socketWayland": false,
     "socketPulseAudio": false,
-    "socketSessionBus": false,
-    "socketSystemBus": false,
     "socketSshAgent": false,
     "socketCups": false,
     "socketGpgAgent": false,
-    "socketAtSpiBus": false,
-    "socketBluetooth": false,
     "deviceDri": false,
     "deviceKvm": false,
     "deviceShm": false,
@@ -41,7 +36,6 @@
     "memoryMaxMB": 0,
     "cpuQuota": 0,
     "pidsMax": 0,
-    "asRoot": false,
-    "allowedHostCommands": []
+    "asRoot": false
   }
 }
