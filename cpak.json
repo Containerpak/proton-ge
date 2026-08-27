@@ -4,7 +4,7 @@
   "name": "GE-Proton",
   "description": "Use the community Proton build maintained by GloriousEggroll.",
   "version": "11-5",
-  "image": "ghcr.io/containerpak/proton-ge@sha256:4f0d360ca3e47f38d35392b5347b62c7403ac1e51f1e0748bd42a054d0a52da5",
+  "image": "ghcr.io/containerpak/proton-ge@sha256:461cf9786b50187304091b9fedecd563ddb3bc34cd6921d97ec1a6f45245659a",
   "binaries": [
     "/usr/bin/proton-ge"
   ],
